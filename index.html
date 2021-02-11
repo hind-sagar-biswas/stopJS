@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>StopJS - JavaScript Stopwatch</title>
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<section>
+				<center>
+			<h1>StopJS</h1>
+			<h3>JavaScript Stopwatch</h3>
+		 </center>
+				<div class="timerScreen" onclick="screenTouch()">
+						<h1 id="timer">00<span>:</span>00<span>:</span>00<span>:</span>00</h1>
+			  </div>
+			  
+			  <div class="buttons">
+			  		<button id="start" onclick="startTimer()">START</button>
+			  		<button id="stop" onclick="stopTimer()">STOP</button>
+			  		<button id="reset" onclick="resetTimer()">RESET</button>
+			  </div>
+		</section>
+		
+		<script src="main.js"></script>
+</body>
+</html>
